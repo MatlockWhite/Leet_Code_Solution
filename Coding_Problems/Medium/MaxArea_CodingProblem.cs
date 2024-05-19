@@ -28,7 +28,7 @@ using System.Threading.Tasks;
  *      Memory Efficiency:  54.9MB
  */
 
-namespace Leet_Code_Solution.Coding_Problems
+namespace Leet_Code_Examples.Coding_Problems.Medium
 {
     internal class MaxArea_CodingProblem
     {

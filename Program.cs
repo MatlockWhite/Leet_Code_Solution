@@ -8,6 +8,7 @@
  * 
 */
 
+using Leet_Code_Examples.Test_Cases;
 using Leet_Code_Solution.Test_Cases;
 
 // Best Pricing
@@ -38,3 +39,30 @@ rom.SeriesTest();
 // Zig-Zag
 ZigZagConversion_TestCase zig = new ZigZagConversion_TestCase();
 zig.CompleteTest();
+
+// Longest Prefix
+LongestCommonPrefix_TestCase longest = new LongestCommonPrefix_TestCase();
+longest.FullTest();
+
+// Longest Substring            ********* Need to get the information from my other acct *********
+LongestSubstringNoRepeats_TestCase longestSub = new LongestSubstringNoRepeats_TestCase();
+
+// Valid Parenthesis
+ValidParenthesis_TestCase valid = new ValidParenthesis_TestCase();
+valid.TestAll();
+
+// Remove Duplicates
+RemoveDuplicatesFromSortedArray_TestCase removeDuplicate = new RemoveDuplicatesFromSortedArray_TestCase();
+removeDuplicate.TestAll();
+
+// Remove Element
+RemoveElement_TestCase removeElement = new RemoveElement_TestCase();
+removeElement.TestAll();
+
+// Find the First Occurance in a String
+FindTheFirstOccurance_TestCase findTheFirst =  new FindTheFirstOccurance_TestCase();
+findTheFirst.TestAll();
+
+// Trapping Rainwater
+TrappingRainWater_TestCase trappingRain = new TrappingRainWater_TestCase();
+trappingRain.TestAll();

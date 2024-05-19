@@ -32,7 +32,7 @@ using System.Threading.Tasks;
  *      Memory Efficiency:  105.4MB
  */
 
-namespace Leet_Code_Solution.Coding_Problems
+namespace Leet_Code_Examples.Coding_Problems.Medium
 {
     internal class ZigZagConversion_CodingProblem
     {
@@ -45,7 +45,7 @@ namespace Leet_Code_Solution.Coding_Problems
             // It does have potential for robust expansion unlike the optimal solution found at the bottom.
             int rowOffset = 0;
             int rowValue = 1;
-            string result = String.Empty;
+            string result = string.Empty;
             Dictionary<int, List<string>> rows = new Dictionary<int, List<string>>();
 
             for (int i = 0; i < numRows; i++)
@@ -85,7 +85,7 @@ namespace Leet_Code_Solution.Coding_Problems
         // The following is a more optimized way
         public string Optimized(string s, int numRows)
         {
-            string result = String.Empty;
+            string result = string.Empty;
             int offset = numRows * 2 - 2;
 
             if (numRows <= 1 || numRows >= s.Count()) { return s; }

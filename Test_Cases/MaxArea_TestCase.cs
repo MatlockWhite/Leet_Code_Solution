@@ -1,5 +1,4 @@
-﻿using Best_Pricing_Problem;
-using Leet_Code_Solution.Coding_Problems;
+﻿using Leet_Code_Examples.Coding_Problems.Medium;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 using System.Collections.Generic;
@@ -78,7 +77,6 @@ namespace Leet_Code_Solution.Test_Cases
 
             List<int[]> arrays = new List<int[]>();
             arrays.Add(new[] { 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8 });
-            arrays.Add(new[] { 1, 1 });
             arrays.Add(new[] { 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 4, 5, 5, 5, 5, 4, 4, 3, 3, 3, 3, 2, 2, 2, 2, 2, 1, 1, 11, 1, 1, 1, 1 });
             OutputValue(arrays, "Redundancy Test");
         }

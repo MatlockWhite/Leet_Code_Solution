@@ -23,7 +23,7 @@ using System.Threading.Tasks;
  *      Memory Efficiency:  105.4MB
  */
 
-namespace Best_Pricing_Problem
+namespace Leet_Code_Examples.Coding_Problems.Medium
 {
     internal class BestPricing_CodingProblem
     {

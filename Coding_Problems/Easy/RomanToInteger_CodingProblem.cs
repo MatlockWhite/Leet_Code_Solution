@@ -49,7 +49,7 @@ using System.Threading.Tasks;
 
 
 
-namespace Leet_Code_Solution.Coding_Problems
+namespace Leet_Code_Examples.Coding_Problems.Easy
 {
     internal class RomanToInteger_CodingProblem
     {
@@ -83,25 +83,25 @@ namespace Leet_Code_Solution.Coding_Problems
             int value = 0;
             switch (letter)
             {
-                case ('I'):
+                case 'I':
                     value = 1;
                     break;
-                case ('V'):
+                case 'V':
                     value = 5;
                     break;
-                case ('X'):
+                case 'X':
                     value = 10;
                     break;
-                case ('L'):
+                case 'L':
                     value = 50;
                     break;
-                case ('C'):
+                case 'C':
                     value = 100;
                     break;
-                case ('D'):
+                case 'D':
                     value = 500;
                     break;
-                case ('M'):
+                case 'M':
                     value = 1000;
                     break;
                 default:

@@ -52,7 +52,7 @@ using System.Threading.Tasks;
  *      Memory Efficiency:  46.1MB
  */
 
-namespace Leet_Code_Solution.Coding_Problems
+namespace Leet_Code_Examples.Coding_Problems.Medium
 {
     internal class IntegerToRoman_CodingProblem
     {
@@ -84,7 +84,7 @@ namespace Leet_Code_Solution.Coding_Problems
         {
 
             // New Refined Solution using O(1) timecomplexity.
-            string result = String.Empty;
+            string result = string.Empty;
             string[] singles = { "", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX" };
             string[] tens = { "", "X", "XX", "XXX", "XL", "L", "LX", "LXX", "LXXX", "XC" };
             string[] hundreds = { "", "C", "CC", "CCC", "CD", "D", "DC", "DCC", "DCCC", "CM" };
@@ -96,61 +96,61 @@ namespace Leet_Code_Solution.Coding_Problems
 
         public string EvaluateToRomanNumeral(int num)
         {
-            string c = String.Empty;
+            string c = string.Empty;
             switch (num)
             {
-                case (1):
+                case 1:
                     c = "I";
                     break;
-                case (2):
+                case 2:
                     c = "II";
                     break;
-                case (3):
+                case 3:
                     c = "III";
                     break;
-                case (4):
+                case 4:
                     c = "IV";
                     break;
-                case (5):
+                case 5:
                     c = "V";
                     break;
-                case (6):
+                case 6:
                     c = "VI";
                     break;
-                case (7):
+                case 7:
                     c = "VII";
                     break;
-                case (8):
+                case 8:
                     c = "VIII";
                     break;
-                case (9):
+                case 9:
                     c = "IX";
                     break;
-                case (10):
+                case 10:
                     c = "X";
                     break;
-                case (40):
+                case 40:
                     c = "XL";
                     break;
-                case (50):
+                case 50:
                     c = "L";
                     break;
-                case (90):
+                case 90:
                     c = "XC";
                     break;
-                case (100):
+                case 100:
                     c = "C";
                     break;
-                case (400):
+                case 400:
                     c = "CD";
                     break;
-                case (500):
+                case 500:
                     c = "D";
                     break;
-                case (900):
+                case 900:
                     c = "CM";
                     break;
-                case (1000):
+                case 1000:
                     c = "M";
                     break;
                 default:

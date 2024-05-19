@@ -1,4 +1,4 @@
-﻿using Best_Pricing_Problem;
+﻿using Leet_Code_Examples.Coding_Problems.Medium;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 using System.Collections.Generic;

@@ -1,4 +1,4 @@
-﻿using Leet_Code_Solution.Coding_Problems;
+﻿using Leet_Code_Examples.Coding_Problems.Easy;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 using System.Collections.Generic;
