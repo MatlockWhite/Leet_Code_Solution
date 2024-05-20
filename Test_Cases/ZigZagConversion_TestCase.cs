@@ -67,7 +67,7 @@ namespace Leet_Code_Solution.Test_Cases
         }
 
         [TestMethod]
-        public void CompleteTest()
+        public void TestAll()
         {
             EmptyTest();
             SingleCharTest();

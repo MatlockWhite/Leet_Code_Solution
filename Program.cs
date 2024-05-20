@@ -38,11 +38,11 @@ rom.SeriesTest();
 
 // Zig-Zag
 ZigZagConversion_TestCase zig = new ZigZagConversion_TestCase();
-zig.CompleteTest();
+zig.TestAll();
 
 // Longest Prefix
 LongestCommonPrefix_TestCase longest = new LongestCommonPrefix_TestCase();
-longest.FullTest();
+longest.TestAll();
 
 // Longest Substring            ********* Need to get the information from my other acct *********
 LongestSubstringNoRepeats_TestCase longestSub = new LongestSubstringNoRepeats_TestCase();
@@ -66,3 +66,35 @@ findTheFirst.TestAll();
 // Trapping Rainwater
 TrappingRainWater_TestCase trappingRain = new TrappingRainWater_TestCase();
 trappingRain.TestAll();
+
+// Valid Palindrome (Int)
+IsPalindrom_TestCase isPalindrom = new IsPalindrom_TestCase();
+isPalindrom.TestAll();
+
+// Buy Two Chocolates
+BuyTwoChocolates_TestCase buyTwoChocolates =  new BuyTwoChocolates_TestCase();
+buyTwoChocolates.TestAll();
+
+// Largest 3-Same-Digit Number in a String
+LargestThreeSameDigitNumberInString_TestCase largestThreeSameDigitNumberInString = new LargestThreeSameDigitNumberInString_TestCase();
+largestThreeSameDigitNumberInString.TestAll();
+
+// Minimum Changes To Make Alternating Binary String
+MinimumChangesToMakeAlternatingBinaryString_TestCase minimumChangesToMakeAlternatingBinaryString_ = new MinimumChangesToMakeAlternatingBinaryString_TestCase();
+minimumChangesToMakeAlternatingBinaryString_.TestAll();
+
+CalculateMoneyInBank_TestCase CalculateMoneyInBank_ = new CalculateMoneyInBank_TestCase();
+CalculateMoneyInBank_.TestAll();
+
+// Insert Delete GetRandom O(1) Duplicates Allowed
+InsertDeleteGetRandomDuplicatesAllowed_TestCase insertDeleteGetRandomDuplicatesAllowed_ = new InsertDeleteGetRandomDuplicatesAllowed_TestCase();
+insertDeleteGetRandomDuplicatesAllowed_.PerformTest();
+insertDeleteGetRandomDuplicatesAllowed_.PerformTest2();
+
+// N-Queens II
+NQueensII_TestCase nQueensII_ = new NQueensII_TestCase();
+nQueensII_.TestAll();
+
+// Candy
+Candy_TestCase candy = new Candy_TestCase();
+candy.TestAll();

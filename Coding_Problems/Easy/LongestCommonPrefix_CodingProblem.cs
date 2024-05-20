@@ -34,6 +34,7 @@ namespace Leet_Code_Examples.Coding_Problems.Easy
         public string LongestCommonPrefix(string[] strs)
         {
             string result = string.Empty;
+            if (strs.Length < 1) {  return result; }
             for (int i = 0; i < strs[0].Length; i++)
             {
                 if (strs.Any(x => x.Length - 1 < i || x.Length > i && x.ElementAt(i) != strs[0].ElementAt(i)))

@@ -33,7 +33,7 @@ namespace Leet_Code_Examples.Test_Cases
         }
 
         [TestMethod]
-        public void FullTest()
+        public void TestAll()
         {
             List<string[]> values = new List<string[]>();
 
